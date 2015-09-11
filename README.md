@@ -1,6 +1,6 @@
 # Intro to Hadoop and MapReduce (Udacity)
 
-This repository contains all of my code for the final project.
+This repository contains all of my code for the final project. All programs run on the forum dataset supplied by Udacity: [forum_data.tar.gz](http://content.udacity-data.com/course/hadoop/forum_data.tar.gz).
 
 ##Students and Posting Time on Forums
 Problem description:
