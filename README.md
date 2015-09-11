@@ -49,6 +49,7 @@ Problem description:
 My solutions:
 * [`popular_tags_mapper.py`](popular_tags_mapper.py)
 * [`popular_tags_reducer.py`](popular_tags_reducer.py)
+
 I also created a version where tags are sorted based on their total score:
 * [`popular_tags_extra_mapper.py`](popular_tags_extra_mapper.py)
 * [`popular_tags_extra_reducer.py`](popular_tags_extra_reducer.py)
