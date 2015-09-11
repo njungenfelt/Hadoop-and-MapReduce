@@ -15,6 +15,7 @@ Problem description:
 >For example:
 
 >`13431511\t13`
+
 >`54525254141\t21`
 
 >If there is a tie: there are multiple hours during which a student has posted a maximum number of posts, please print the student-hour pairs on separate lines. The order in which these lines appear in your output does not matter.
@@ -24,8 +25,8 @@ Problem description:
 >In order to find the hour posted, please use the date_added field and NOT the last_activity_at field.
 
 My solutions:
-* `student_times_mapper.py`
-* `student_times_reducer.py`
+* [`student_times_mapper.py`](student_times_mapper.py)
+* [`student_times_reducer.py`](student_times_reducer.py)
 
 ##Post and Answer Length
 Problem description:
@@ -34,5 +35,5 @@ Problem description:
 >Write a mapreduce program that would process the forum_node data and output the length of the post and the average answer (just answer, not comment) length for each post. You will have to decide how to write both the mapper and the reducer to get the required result.
 
 My solutions:
-* [`student_times_mapper.py`](student_times_mapper.py)
-* `student_times_reducer.py`
+* [`average_length_mapper.py`](average_length_mapper.py)
+* [`average_length_reducer.py`](average_length_reducer.py)
