@@ -14,9 +14,10 @@ Problem description:
 
 >For example:
 
->`13431511\t13`
-
->`54525254141\t21`
+>```
+13431511\t13
+54525254141\t21
+```
 
 >If there is a tie: there are multiple hours during which a student has posted a maximum number of posts, please print the student-hour pairs on separate lines. The order in which these lines appear in your output does not matter.
 
