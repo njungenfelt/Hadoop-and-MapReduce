@@ -73,3 +73,11 @@ Problem description:
 I have made use of a combiner (reducer also working as combiner). This got the CPU time spent down by 15%. Here's my code:
 * [`search_functionality_mapper.py`](search_functionality_mapper.py)
 * [`search_functionality_reducer.py`](search_functionality_reducer.py)
+
+##Other questions about the dataset
+Problem description:
+>What other questions do you think could be answered by using MapReduce on this dataset?
+
+There's a functionality in the forum to add code in the posts. The following MapReduce program answers what percentage of posts, split between the different types of posts, that make use of this functionality:
+* [`use_of_code_mapper.py`](use_of_code_mapper.py)
+* [`use_of_code_reducer.py`](use_of_code_reducer.py)
