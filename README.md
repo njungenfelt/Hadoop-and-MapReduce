@@ -50,6 +50,26 @@ My solutions:
 * [`popular_tags_mapper.py`](popular_tags_mapper.py)
 * [`popular_tags_reducer.py`](popular_tags_reducer.py)
 
-I also created a version where tags are sorted based on their total score:
+I also created a version where tag counts are weighted based on the score for the post (the reducer left unchanged):
 * [`popular_tags_extra_mapper.py`](popular_tags_extra_mapper.py)
 * [`popular_tags_extra_reducer.py`](popular_tags_extra_reducer.py)
+
+##Study Groups
+Problem description:
+>We might want to help students form study groups. But first we want to see if there are already students on forums that communicate a lot between themselves.
+
+>As the first step for this analysis we have been tasked with writing a mapreduce program that for each forum thread (that is a question node with all it's answers and comments) would give us a list of students that have posted there - either asked the question, answered a question or added a comment. If a student posted to that thread several times, they should be added to that list several times as well, to indicate intensity of communication.
+
+My solutions:
+* [`study_groups_mapper.py`](study_groups_mapper.py)
+* [`study_groups_reducer.py`](study_groups_reducer.py)
+
+##Improving the search functionality and index-building
+Problem description:
+>In Lesson 4 you built an index which included {<word>: <forum entries that include the word>}. This can be used to search efficiently for forum posts that contain a specific word. Can you think of improvements you could make to the process of building an index by using the design patterns you learned in Lesson 4?
+
+>The improvements might include improving the efficency of the index building by applying some of the MapReduce design patterns or changing the index to include other features from the data.
+
+I have made use of a combiner (reducer also working as combiner). This got the CPU time spent down by 15%. Here's my code:
+* [`search_functionality_mapper.py`](search_functionality_mapper.py)
+* [`search_functionality_reducer.py`](search_functionality_reducer.py)
